@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, sans-serif;
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+.app-shell {
+  max-width: 760px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 18px 45px rgba(15, 23, 42, 0.08);
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  color: #4b5563;
+}
+
+.task-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.task-form input {
+  padding: 0.85rem 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 12px;
+  font-size: 1rem;
+}
+
+.task-form button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 0.95rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  margin-bottom: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: #fafafa;
+}
+
+.task-item.completed span {
+  text-decoration: line-through;
+  color: #6b7280;
+}
+
+.task-main {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+
+.task-main span {
+  font-size: 1rem;
+}
+
+.toggle {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: 1px solid #cbd5e1;
+  background: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.task-actions button {
+  border: none;
+  border-radius: 10px;
+  padding: 0.6rem 0.85rem;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.task-actions button.delete {
+  background: #ef4444;
+  color: white;
+}
+
+.task-actions button:not(.delete) {
+  background: #e2e8f0;
+  color: #111827;
+}
+
+.edit-input {
+  font-size: 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: 10px;
+  padding: 0.55rem 0.75rem;
+}
+
+.message {
+  padding: 1rem;
+  border-radius: 14px;
+  background: #eef2ff;
+  color: #4338ca;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.message.error {
+  background: #fee2e2;
+  color: #b91c1c;
+}
