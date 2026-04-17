@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Task Management Web Application
 
 This repository contains a full-stack task manager built with React for the frontend and Node.js + Express for the backend.
