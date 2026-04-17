@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Task Management Web Application
 
 This repository contains a full-stack task manager built with React for the frontend and Node.js + Express for the backend.
@@ -32,3 +33,7 @@ This repository contains a full-stack task manager built with React for the fron
 ## Notes
 - Frontend fetches tasks from the backend using `fetch()`.
 - Basic CSS styling applied in `frontend/src/styles.css`.
+=======
+# Task-Management-Web-App
+Optimizing tool selection...## GitHub repo description  `Full-stack Task Manager with React + Vite frontend and Express backend storing tasks in JSON`  ## Short README summary  A simple task management app with add, edit, complete, and delete support. The React frontend talks to an Express API, and tasks are persisted in tasks.json.
+>>>>>>> 5f3ac1b53726f19332120f252e2773eeba1d285c
